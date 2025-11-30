@@ -1,0 +1,3 @@
+podman build . -t modelcar-example:latest --platform linux/amd64
+
+podman push modelcar-example:latest quay.io/<your-registry>/modelcar-example:latest
